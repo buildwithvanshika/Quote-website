@@ -12,7 +12,7 @@ A simple and elegant quote display website built with HTML and CSS.
 
 ## 🚀 Live Demo
 
-👉 [Click here to see the live website](https://your-username.github.io/quote-website/)
+👉 https://buildwithvanshika.github.io/Quote-website/
 
 ## 🛠️ Tech Used
 
