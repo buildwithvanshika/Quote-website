@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Motivation Generator Website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="navbar">
+        <ul id="navItems">
+            <li><a href="#" target="_main"><img src="/home.png" class="icons">Home</a></li>
+            <li><a href="#" target="_main"><img src="/about.png" class="icons">About</a></li>
+            <li><a href="#" target="_main"><img src="/quote.png" class="icons">Quotes</a></li>
+            <li><a href="#" target="_main"><img src="/togglemode.png" class="icons">Toggle Mode</a></li>
+            <li><a href="#" target="_main"><img src="/contact.png" class="icons">Contact</a></li>
+        </ul>
+    </div>
+    <div class="quotes">
+        <p id="displayQuote">Click the button to see a Quote!</p>
+        <button onclick="generateQuote()" class="button">Click me</button>
+
+    </div>
+    <footer class="footer">
+    <p>Made with ❤️ by Vanshika</p>
+    <p>&copy; 2025</p>
+</footer>
+   <script>
+    const quotes = [
+      "The version of you 6 months from now is watching. Don’t disappoint her.",
+      "Your comfort zone will kill your potential.",
+      "Silence your doubts with actions, not arguments.",
+      "The only plan B is to make plan A work.",
+      "You don’t need more time. You need more focus.",
+      "Talent without work is nothing.",
+      "Your love makes me strong. Your hate makes me unstoppable.",
+      "The only way to do great work is to love what you do.",
+      "Think like a queen. A queen is not afraid to fail. Failure is another steppingstone to greatness.",
+      "It always seems impossible until it’s done.",
+      "Success is most often achieved by those who don’t know that failure is inevitable.",
+      "Champions keep playing until they get it right."
+    ];
+
+    function generateQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  const selectedQuote = quotes[randomIndex];
+  document.getElementById("displayQuote").innerText = selectedQuote;
+}
+   </script>
+</body>
+</html>
