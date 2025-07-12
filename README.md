@@ -19,10 +19,6 @@ A simple and elegant quote display website built with HTML and CSS.
 - HTML5  
 - CSS3 (Flexbox, Media Queries, Animations)
 
-## 📸 Screenshots (Optional)
-
-_Add a screenshot here if you want to!_
-
 ## 🙌 Made With Love
 
 By [Vanshika](https://github.com/your-username)
